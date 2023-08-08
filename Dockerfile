@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 ARG HUGO_VERSION=0.69.2
 
 RUN apk add --no-cache \
